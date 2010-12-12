@@ -1,0 +1,15 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Welcome to TinyWebDB4J.  This project contains a Java-based implementation of the [http://appinventor.googlelabs.com/learn/reference/other/tinywebdb.html TinyWebDB Service] used by [http://appinventor.googlelabs.com/about/ App Inventor for Android].
+
+
+= Details =
+Notes:
+  # The code is generic, meaning that it can simply be copied into any Java application server.
+    # The code is currently a straight Java Servlet.
+    # SpringMVC and other implementation may be added in the future.
+  # The code is developed in [http://eclipse.org/ Eclipse], though should be portable to any IDE, with the appropriate changes.
+  # To ease introduction, the project is configured to work with the latest version of [http://code.google.com/appengine/ Google Apps Engine].
+    # When configuring the Google Apps Engine locally, add the following parameter in the Run/Debug Configuration within Eclipse for the Arguments tab, Program Arguments text block to allow reference to the server by a device other than localhost: {{{ -a 0.0.0.0 }}}. This should be placed just after the default entry of {{{ --port=8888 }}}.
