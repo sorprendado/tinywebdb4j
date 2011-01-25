@@ -104,7 +104,7 @@ public class TinyWebDbServerServlet extends HttpServlet
 			} // end of IF
 			else if (values.size() == 1)
 			{
-				theCompeteValue = values.get(1);
+				theCompeteValue = values.get(0);
 			} // end of ELSE IF
 			else
 			{
