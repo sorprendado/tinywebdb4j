@@ -163,6 +163,10 @@ public class TinyWebDbServerServlet extends HttpServlet
 		{
 			values.add("ALPHA");
 		} // end of IF
+		else if (tag.equals("key"))
+		{
+			values.add("This is the value");
+		} // end of ELSE IF
 		else if (tag.equals("beta"))
 		{
 			values.add("BETA1");
@@ -170,12 +174,7 @@ public class TinyWebDbServerServlet extends HttpServlet
 		} // end of ELSE IF
 		else 
 		{
-			values.add("image");
-			values.add("first_nameXXX");
-			values.add("Last_nameXXX");
-			values.add("comment");
-			
-			values.add("unknown tag ["+tag+"]");
+			values.add("unknown tag ["+tag+"]; modify method 'getValueAssociatedWithTag(String tag)'");
 		} // end of ELSE IF
 
 		return values;
