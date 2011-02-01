@@ -29,7 +29,7 @@ public class TinyWebDbServerServlet extends HttpServlet
 		String action = request.getRequestURI();
 	    if (logger.isLoggable(Level.FINE))
 		{
-			logger.fine("action = [" + action + "]");
+			logger.fine("action-GET = [" + action + "]");
 		} // end of IF
 		
 		response.setContentType("text/plain");
@@ -42,7 +42,7 @@ public class TinyWebDbServerServlet extends HttpServlet
 		String action = request.getRequestURI();
 	    if (logger.isLoggable(Level.FINE))
 		{
-			logger.fine("action = [" + action + "]");
+			logger.fine("action-POST = [" + action + "]");
 		} // end of IF
 
 	    if (action.equals(TINY_WEB_DB_URI_GET_VALUE))
