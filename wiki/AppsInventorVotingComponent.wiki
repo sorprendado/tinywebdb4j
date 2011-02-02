@@ -22,11 +22,11 @@ The block component "Voting1.SendBallot" sends a POST request to the Voting1.Ser
 I have this running on a modified version of tinywebdb4j (https://code.google.com/p/tinywebdb4j/)
 
 Information taken from the following sites:
-http://appinventor.googlelabs.com/learn/reference/components/notready.html#Voting
-http://androvote.appspot.com/requestballot
-http://androvote.appspot.com
-http://sites.google.com/site/appinventorhelp/components/component-reference#TOC-Voting
-http://people.csail.mit.edu/hal/misc/magnuson-meng-eecs-2010.pdf
+ # http://appinventor.googlelabs.com/learn/reference/components/notready.html#Voting
+ # http://androvote.appspot.com/requestballot
+ # http://androvote.appspot.com
+ # http://sites.google.com/site/appinventorhelp/components/component-reference#TOC-Voting
+ # http://people.csail.mit.edu/hal/misc/magnuson-meng-eecs-2010.pdf
 -markus
 
 
