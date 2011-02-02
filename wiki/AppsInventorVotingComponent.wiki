@@ -3,8 +3,6 @@
 = Introduction =
 
 
-
-
 Playing around with the App Inventor Voting Block ([http://appinventor.googlelabs.com/learn/reference/components/notready.html#Voting documentation]), it seems....
 
 The block component "Voting1.RequestBallot" sends a POST request to the Voting1.ServiceURL to "/requestballot".  The response needs to be formatted like this:
@@ -27,16 +25,9 @@ Information taken from the following sites:
  # http://androvote.appspot.com
  # http://sites.google.com/site/appinventorhelp/components/component-reference#TOC-Voting
  # http://people.csail.mit.edu/hal/misc/magnuson-meng-eecs-2010.pdf
--markus
-
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-
+Below are screenshots from Apps Inventor:
  # [http://tinywebdb4j.googlecode.com/svn/wiki/images/Polling-UI.png]
  # [http://tinywebdb4j.googlecode.com/svn/wiki/images/Polling-Blocks.png]
