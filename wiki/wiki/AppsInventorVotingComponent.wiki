@@ -1,0 +1,15 @@
+#summary Information about the Apps Inventor Voting component
+
+= Introduction =
+
+[http://appinventor.googlelabs.com/learn/reference/components/notready.html#Voting documentation]
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
