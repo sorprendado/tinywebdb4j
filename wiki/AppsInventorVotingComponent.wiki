@@ -1,6 +1,8 @@
-#summary Information about the Apps Inventor [http://appinventor.googlelabs.com/learn/reference/components/notready.html Voting] component
+#summary Information about the Apps Inventor Voting component
 
 = Introduction =
+
+[http://appinventor.googlelabs.com/learn/reference/components/notready.html#Voting documentation]
 
 Add your content here.
 
