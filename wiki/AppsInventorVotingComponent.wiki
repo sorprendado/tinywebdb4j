@@ -2,9 +2,32 @@
 
 = Introduction =
 
-[http://appinventor.googlelabs.com/learn/reference/components/notready.html#Voting documentation]
 
-Add your content here.
+
+
+Playing around with the App Inventor Voting Block ([http://appinventor.googlelabs.com/learn/reference/components/notready.html#Voting documentation]), it seems....
+
+The block component "Voting1.RequestBallot" sends a POST request to the Voting1.ServiceURL to "/requestballot".  The response needs to be formatted like this:
+
+{"isPolling": true, "idRequested": true, "question": "What color is the sky?", "options": ["red", "blue", "green"]}
+
+If "isPolling" is false, then "Voting1.NoOpenPoll" is executed.
+
+If "isPolling" is true, then "Voting1.GotBallot" is executed.
+
+I have not yet figured out when "Voting.WebServiceError" is executed.
+
+The block component "Voting1.SendBallot" sends a POST request to the Voting1.ServiceURL to "/sendballot".  The following two parameters must be passed: "userChoice" and "userId".
+
+I have this running on a modified version of tinywebdb4j (https://code.google.com/p/tinywebdb4j/)
+
+Information taken from the following sites:
+http://appinventor.googlelabs.com/learn/reference/components/notready.html#Voting
+http://androvote.appspot.com/requestballot
+http://androvote.appspot.com
+http://sites.google.com/site/appinventorhelp/components/component-reference#TOC-Voting
+http://people.csail.mit.edu/hal/misc/magnuson-meng-eecs-2010.pdf
+-markus
 
 
 = Details =
