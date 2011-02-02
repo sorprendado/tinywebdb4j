@@ -1,5 +1,4 @@
 #summary Information about the Apps Inventor Voting component
-#labels Featured
 
 = Introduction =
 
